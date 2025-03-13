@@ -29,13 +29,13 @@ pip install numpy pandas seaborn matplotlib scikit-learn
 ### Running the Script
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/customer-segmentation.git
-   cd customer-segmentation
+   git clone git@github.com:MoustafaMohamed01/Mall-Customer-Segmentation-Data.git
+   cd Mall-Customer-Segmentation-Data
    ```
 2. Place the **Mall_Customers.csv** file in the same directory as the script.
 3. Run the Python script:
    ```sh
-   python customer_segmentation.py
+   python Customer Segmentation using K-Means Clustering.py
    ```
 
 ## Methodology
