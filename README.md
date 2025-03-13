@@ -35,7 +35,7 @@ pip install numpy pandas seaborn matplotlib scikit-learn
 2. Place the **Mall_Customers.csv** file in the same directory as the script.
 3. Run the Python script:
    ```sh
-   python Customer Segmentation using K-Means Clustering.py
+   python Customer_Segmentation_using_K-Means_Clustering.py
    ```
 
 ## Methodology
