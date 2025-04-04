@@ -1,3 +1,4 @@
+
 # Customer Segmentation using K-Means Clustering
 
 ## Overview
@@ -22,9 +23,15 @@ Dataset Source: [Kaggle - Mall Customers Dataset](https://www.kaggle.com/vjchoud
 ## Installation & Setup
 ### Prerequisites
 Ensure you have Python installed along with the required dependencies:
-```sh
-pip install numpy pandas seaborn matplotlib scikit-learn
-```
+- **Using `pip` directly**:
+     ```sh
+     pip install numpy pandas seaborn matplotlib scikit-learn
+     ```
+ - **Using `requirements.txt`** (recommended):
+  
+     ```sh
+     pip install -r requirements.txt
+     ```
 
 ### Running the Script
 1. Clone the repository:
@@ -44,3 +51,18 @@ pip install numpy pandas seaborn matplotlib scikit-learn
 3. **Finding Optimal Clusters**: Uses the **Elbow Method** to determine the best value of K.
 4. **Clustering with K-Means**: Applies K-Means with the optimal K value.
 5. **Visualization**: Plots the Elbow Graph and Cluster Scatter Plot.
+
+### **Elbow Method Graph**
+The **Elbow Method** helps determine the optimal number of clusters by plotting the Within-Cluster Sum of Squares (WCSS).
+
+![Elbow Method Graph](images/elbow_point_graph.png)
+
+### **Customer Segmentation Scatter Plot**
+The final K-Means clustering results are visualized in a scatter plot, showing customer segments and their centroids.
+
+![Customer Segmentation Plot](images/customer_segmentation.png)
+
+## Results & Insights
+- The optimal number of clusters (K) is selected using the **Elbow Method**.
+- Customers are grouped based on their **Annual Income** and **Spending Score**.
+- Business insights can be derived by analyzing these segments (e.g., targeting high-spending customers with promotions).
