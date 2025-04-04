@@ -26,6 +26,7 @@ plt.ylabel("WCSS (Within Cluster Sum of Squares)", fontsize=12, color="#A1A1A1",
 
 plt.grid(True, color='gray', linestyle='-', linewidth=0.5, alpha=0.6)
 plt.tight_layout()
+plt.savefig("elbow_point_graph.png", dpi=300, bbox_inches='tight', transparent=True)
 plt.show()
 
 
@@ -46,4 +47,5 @@ plt.xlabel("Annual Income (K$)")
 plt.ylabel("Spending Score (1-100)")
 plt.legend()
 plt.grid(True)
+plt.savefig("customer_segmentation.png", dpi=300, bbox_inches='tight', transparent=True)
 plt.show()
